@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="hunger_level_textview" type="id" />
+    <item name="feed_button" type="id" />
+    <item name="happiness_level_textview" type="id" />
+    <item name="play_button" type="id" />
+    <item name="inventory_button" type="id" />
+    <item name="shop_button" type="id" />
+    <item name="coins_textview" type="id" />
+</resources>

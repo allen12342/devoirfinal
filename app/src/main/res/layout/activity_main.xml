@@ -1,0 +1,71 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="16dp"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:paddingTop="16dp"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/hunger_level_textview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Faim : 100"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/happiness_level_textview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/hunger_level_textview"
+        android:layout_marginTop="8dp"
+        android:text="Bonheur : 100"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/coins_textview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/happiness_level_textview"
+        android:layout_marginTop="8dp"
+        android:text="Coins : 0"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/feed_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/coins_textview"
+        android:layout_marginTop="16dp"
+        android:text="Nourrir" />
+
+    <Button
+        android:id="@+id/play_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/feed_button"
+        android:layout_marginTop="16dp"
+        android:text="Jouer" />
+
+    <Button
+        android:id="@+id/shop_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/play_button"
+        android:layout_marginTop="16dp"
+        android:text="Boutique" />
+
+    <Button
+        android:id="@+id/inventory_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/shop_button"
+        android:layout_marginTop="16dp"
+        android:text="Inventaire" />
+
+</RelativeLayout>
